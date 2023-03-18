@@ -1,0 +1,38 @@
+header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  padding: 43px 0 38px;
+  border-bottom: 3px solid rgba(168, 205, 231, 0.4);
+  font-family: "Circe", serif;
+  font-size: 27px;
+  font-weight: bold;
+}
+header .container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header a {
+  color: #fff;
+}
+header a:hover {
+  color: #ff6000;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  max-width: 354px;
+  width: 100%;
+}
